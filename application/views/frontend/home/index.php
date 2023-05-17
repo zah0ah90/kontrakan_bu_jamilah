@@ -14,9 +14,7 @@
     <link href="<?= base_url() ?>assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
-    <link
-        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
     <!-- Vendor CSS Files -->
     <link href="<?= base_url() ?>assets/vendor/aos/aos.css" rel="stylesheet">
@@ -57,9 +55,7 @@
                     <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
                     <li><a class="nav-link scrollto" href="<?= base_url('auth') ?>">Akun</a></li>
                     <li>
-                        <a class="getstarted scrollto"
-                            href="https://api.whatsapp.com/send?phone=<?= $nomorWhatsapp ?>&text=Hallo%20apakah%20masih%20setersedia%20kontrakan%20nya?%20terimakasih"
-                            target="_blank">Hubungi</a>
+                        <a class="getstarted scrollto" href="https://api.whatsapp.com/send?phone=<?= $nomorWhatsapp ?>&text=Hallo%20apakah%20masih%20setersedia%20kontrakan%20nya?%20terimakasih" target="_blank">Hubungi</a>
                     </li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
@@ -78,23 +74,21 @@
                 </div>
             </div>
             <div class="text-center">
-                <a href="https://api.whatsapp.com/send?phone=<?= $nomorWhatsapp ?>&text=Hallo%20apakah%20masih%20setersedia%20kontrakan%20nya?%20terimakasih"
-                    target="_blank" class="btn-get-started scrollto">Hubungi</a>
+                <a href="https://api.whatsapp.com/send?phone=<?= $nomorWhatsapp ?>&text=Hallo%20apakah%20masih%20setersedia%20kontrakan%20nya?%20terimakasih" target="_blank" class="btn-get-started scrollto">Hubungi</a>
             </div>
 
             <div class="row icon-boxes" style="text-align: center;">
 
-                <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in"
-                    data-aos-delay="200">
+                <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="200">
                     <div class="icon-box">
                         <div class="icon"><i class="ri-stack-line"></i></div>
-                        <h4 class="title"><a href="#"></a></h4>
-                        <p class="description">Terletak di Cikarang Barat</p>
+                        <h4 class="title"><a href=""></a></h4>
+                        <p class="description">Terletak di dearah Cikarang, dekat dengan jalan raya dan pabrik pabrik
+                            cikarang</p>
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in"
-                    data-aos-delay="300">
+                <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="300">
                     <div class="icon-box">
                         <div class="icon"><i class="ri-map-line"></i></div>
                         <h4 class="title"><a href="#"></a></h4>
@@ -102,8 +96,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in"
-                    data-aos-delay="400">
+                <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="400">
                     <div class="icon-box">
                         <div class="icon"><i class="ri-map-line"></i></div>
                         <h4 class="title"><a href=""></a></h4>
@@ -111,8 +104,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in"
-                    data-aos-delay="400">
+                <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="400">
                     <div class="icon-box">
                         <div class="icon"><i class="ri-star-line"></i></div>
                         <h4 class="title"><a href=""></a></h4>
@@ -220,25 +212,20 @@
                                     <img src="assets/img/gambar_kontrakan.jpeg" class="img-fluid d-block w-100" alt="">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="assets/img/gambar_kontrakan-1.jpeg" class="img-fluid d-block w-100"
-                                        alt="">
+                                    <img src="assets/img/gambar_kontrakan-1.jpeg" class="img-fluid d-block w-100" alt="">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="assets/img/gambar_kontrakan-2.jpeg" class="img-fluid d-block w-100"
-                                        alt="">
+                                    <img src="assets/img/gambar_kontrakan-2.jpeg" class="img-fluid d-block w-100" alt="">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="assets/img/gambar_kontrakan-3.jpeg" class="img-fluid d-block w-100"
-                                        alt="">
+                                    <img src="assets/img/gambar_kontrakan-3.jpeg" class="img-fluid d-block w-100" alt="">
                                 </div>
                             </div>
-                            <button class="carousel-control-prev" type="button"
-                                data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Previous</span>
                             </button>
-                            <button class="carousel-control-next" type="button"
-                                data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Next</span>
                             </button>
@@ -395,10 +382,7 @@
                     </div>
 
                     <div class="col-lg-8 mt-5 mt-lg-0">
-                        <iframe style="border:0; width: 100%; height: 270px;"
-                            src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d15861.625666914484!2d107.0764515!3d-6.3413771!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwMjAnMjguNSJTIDEwN8KwMDQnMzUuNCJF!5e0!3m2!1sid!2sid!4v1683704520466!5m2!1sid!2sid"
-                            frameborder="0" allowfullscreen loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d15861.625666914484!2d107.0764515!3d-6.3413771!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwMjAnMjguNSJTIDEwN8KwMDQnMzUuNCJF!5e0!3m2!1sid!2sid!4v1683704520466!5m2!1sid!2sid" frameborder="0" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 
                     </div>
@@ -438,8 +422,7 @@
     </footer><!-- End Footer -->
 
     <div id="preloader"></div>
-    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-            class="bi bi-arrow-up-short"></i></a>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
     <!-- Vendor JS Files -->
     <script src="<?= base_url() ?>assets/vendor/purecounter/purecounter_vanilla.js"></script>

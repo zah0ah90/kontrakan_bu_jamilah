@@ -42,19 +42,17 @@
                                     <form action="<?= base_url() ?>auth/process" method="post">
                                         <div class="mb-3">
                                             <label class="form-label">Username</label>
-                                            <input class="form-control form-control-lg" type="text" name="user"
-                                                placeholder="Enter your username" />
+                                            <input class="form-control form-control-lg" type="text" name="user" placeholder="Enter your username" />
                                         </div>
                                         <div class="mb-3">
                                             <label class="form-label">Password</label>
-                                            <input class="form-control form-control-lg" type="password" name="pasword"
-                                                placeholder="Enter your password" />
+                                            <input class="form-control form-control-lg" type="password" name="pasword" placeholder="Enter your password" />
 
                                         </div>
-                                        <div class="text-center mt-3">
-                                            <button type="submit" name="login" class="btn btn-lg btn-primary">Masuk
+                                        <div class="mt-3">
+                                            <a href="<?= base_url('home') ?>" class="btn btn-lg btn-primary ">Home</a>
+                                            <button type="submit" name="login" style="float:right;" class="btn btn-lg btn-primary">Masuk
                                             </button>
-                                            <!-- <button type="submit" class="btn btn-lg btn-primary">Sign in</button> -->
                                         </div>
                                     </form>
                                 </div>
@@ -71,13 +69,13 @@
     <script src="<?= base_url('assets/') ?>vendor/sweetalert2/sweetalert2.min.js"></script>
     <script src="<?= base_url('assets/') ?>vendor/jquery/jquery.min.js"></script>
     <script>
-    const flashData = $('.flash-data').data('flashdata');
-    if (flashData) {
-        Swal.fire(
-            flashData, '',
-            'success'
-        )
-    }
+        const flashData = $('.flash-data').data('flashdata');
+        if (flashData) {
+            Swal.fire(
+                flashData, '',
+                'success'
+            )
+        }
     </script>
 </body>
 
