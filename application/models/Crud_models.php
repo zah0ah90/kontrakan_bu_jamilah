@@ -12,9 +12,12 @@ class Crud_models extends CI_Model
 
     function view($select = null, $table = null, $where = null)
     {
-        if ($select) {
+        if (!empty($select)) {
             $this->db->select($select);
+        }else{
+            $this->db->order_by('id', 'desc');
         }
+
         if ($where) {
             $this->db->where($where);
         }

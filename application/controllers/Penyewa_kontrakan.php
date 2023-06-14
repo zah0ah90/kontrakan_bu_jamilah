@@ -80,7 +80,7 @@ class Penyewa_kontrakan extends CI_Controller
 							$uploadData = $this->upload->data();
 							$dataUpload['nama_berkas'] = $uploadData['file_name'];
 							$dataUpload['id_penyewa_kontrakan'] = $idNya;
-							$dataUpload['adddate'] = $add;
+							$dataUpload['adddate'] = date('Y-m-d H:i:s');
 							$this->db->insert('tbl_penyewa_kontrakan_berkas', $dataUpload);
 						}
 					}
